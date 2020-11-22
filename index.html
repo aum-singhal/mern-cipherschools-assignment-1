@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="login">Login Page</header>
+
+    <br>
+
+    <form class="forms1" method="POST">
+        <label class="forms" id="user">Username:</label>
+        <input name="name" id="username" type="text" class="forms" placeholder="Please enter your Username" />
+        <label class="forms" id="password">Password:</label>
+        <input class="forms" id="pass" name="password" type="password" placeholder="Please enter your Password" />
+        <input type="button" value="Submit" class="forms" id="submit" onclick="myFunction()">
+    </form>
+
+    <br>
+
+    <section id="say"></section>
+
+    <script>
+        function myFunction() {
+            var user = document.getElementById("username").value;
+            var pass = document.getElementById("pass").value;
+
+            if (user === "Aum Singhal" && pass === "aumsinghal") {
+                window.location.href = "dashboard.html";
+
+            } else {
+                document.getElementById("say").innerHTML = "Incorrect Login credentials. Please Try again!";
+            }
+        }
+    </script>
+</body>
+
+</html>

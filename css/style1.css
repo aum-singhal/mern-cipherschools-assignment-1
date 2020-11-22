@@ -1,0 +1,287 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.842);
+}
+
+nav{
+    position: fixed;
+    width: 15vw;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.726);
+}
+
+nav .na{
+    margin: 1vw auto;
+    width: 86%;
+    padding: 0.2vw;
+    border-bottom: 1px solid black;
+}
+
+nav .na a{
+    color: white;
+    font-size: 1.5vw;
+    transition: 0.3s;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+nav .na a:hover{
+    color: orange;
+    font-size: 1.5vw;
+    background-color: black;
+    padding: 0.3vw 0.5vw;
+}
+
+#introduction{
+    height: 45vw;
+    align-items: center;
+    background-image: url("./img/intro.jpg");
+    background-size: cover;
+    opacity: 0.9;
+    overflow: hidden;
+}
+
+hr{
+    position: relative;
+    width: 80vw !important;
+    margin: 1vw 2vw;
+}
+
+.head{
+    position: relative;
+    top: 10vw;
+    color: white;
+    font-size: 3vw;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.extra{
+    font-size: 4vw;
+}
+
+.iso{
+    position: relative;
+
+}
+
+.intro{
+    float: right;
+    width: 84.1vw;
+    display: flex;
+    font-family: 'Patua One', cursive;
+    flex-direction: column;
+}
+
+#hobbeis h1{
+    text-align: center;
+    color: white;
+    font-size: 4vw;
+    font-weight: 400;
+}
+
+.coding span{
+    color: white;
+    font-size: 3vw;
+    display: flex;
+    float: left;
+    position: relative;
+    top: 14vw;
+    left: 10vw;
+    padding: 1vw;
+}
+
+.coding span:hover{
+    color: rgb(253, 135, 0);
+    font-size: 3vw;
+    display: flex;
+    float: left;
+    position: relative;
+    top: 14vw;
+    left: 10vw;
+    padding: 1vw;
+    background-color: rgba(8, 6, 0, 0.699);
+    transition: 0.5s;
+    border-radius: 35px;
+    border: 0px solid;
+    cursor: none;
+}
+
+.coding img{
+    float: right;
+    height: 30vw;
+    margin-right: 5vw;
+    margin-top: 2vw;
+}
+
+.reading span{
+    color: white;
+    font-size: 3vw;
+    display: flex;
+    float: right;
+    position: relative;
+    top: 14vw;
+    right: 10vw;
+    padding: 1vw;
+}
+
+.reading span:hover{
+    color: rgb(253, 135, 0);
+    font-size: 3vw;
+    display: flex;
+    float: right;
+    position: relative;
+    top: 14vw;
+    right: 10vw;
+    padding: 1vw;
+    background-color: rgba(8, 6, 0, 0.699);
+    transition: 0.5s;
+    border-radius: 35px;
+    border: 0px solid;
+    cursor: none;
+}
+
+.reading img{
+    float: left;
+    height: 30vw;
+    margin-left: 5vw;
+    margin-top: 2vw;
+}
+
+.gaming span{
+    color: white;
+    font-size: 3vw;
+    display: flex;
+    float: left;
+    position: relative;
+    top: 14vw;
+    left: 10vw;
+    padding: 1vw;
+}
+
+.gaming span:hover{
+    color: rgb(253, 135, 0);
+    font-size: 3vw;
+    display: flex;
+    float: left;
+    position: relative;
+    top: 14vw;
+    left: 10vw;
+    padding: 1vw;
+    background-color: rgba(8, 6, 0, 0.699);
+    transition: 0.5s;
+    border-radius: 35px;
+    border: 0px solid;
+    cursor: none;
+}
+
+.gaming img{
+    float: right;
+    height: 30vw;
+    margin-right: 5vw;
+    margin-top: 2vw;
+}
+
+#interest h1{
+    text-align: center;
+    color: white;
+    font-size: 4vw;
+    font-weight: 400;
+}
+
+.int{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2vw;
+}
+
+.a{
+    color: white;
+    display: flex;
+    font-size: 2.5vw;
+    padding: 1vw 4vw;
+    width: 20vw;
+    margin: 0.3vw 4vw;
+    transition: 0.5s;
+}
+
+.a:hover{
+    display: inline-flex;
+    font-size: 2.5vw;
+    padding: 1vw 4vw;
+    width: 20vw;
+    border-radius: 10px;
+    background-color: rgba(7, 7, 7, 0.836);
+    color: orange;
+}
+
+.a1{
+    color: white;
+    display: flex;
+    font-size: 2.5vw;
+    padding: 1vw 6vw;
+    width: 20vw;
+    margin: 0.3vw 4vw;
+    transition: 0.5s;
+}
+
+.a1:hover{
+    display: flex;
+    font-size: 2.5vw;
+    padding: 1vw 6vw;
+    width: 20vw;
+    border-radius: 10px;
+    background-color: rgba(7, 7, 7, 0.836);
+    color: orange;
+}
+
+.a2{
+    color: white;
+    display: flex;
+    font-size: 2.5vw;
+    padding: 1vw 5vw;
+    width: 20vw;
+    margin: 0.3vw 4vw;
+    transition: 0.5s;
+}
+
+.a2:hover{
+    display: flex;
+    font-size: 2.5vw;
+    padding: 1vw 5vw;
+    width: 20vw;
+    border-radius: 10px;
+    background-color: rgba(7, 7, 7, 0.836);
+    color: orange;
+}
+
+#personal h1{
+    text-align: center;
+    color: white;
+    font-size: 4vw;
+    font-weight: 400;
+}
+
+#personal span{
+    text-align: center;
+    color: rgb(247, 215, 194);
+    font-size: 2vw;
+}
+
+#professional h1{
+    text-align: center;
+    color: white;
+    font-size: 4vw;
+    font-weight: 400;
+}
+
+#professional  span{
+    text-align: center;
+    color: rgb(247, 215, 194);
+    font-size: 2vw;
+}

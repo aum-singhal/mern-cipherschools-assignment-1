@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 255, 0.041);
+}
+
+.login{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 2.5vw;
+    font-family: 'Fredoka One', cursive;
+    width: 20%;
+    border-bottom: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0.9vw;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 30vw;
+    background-color: rgba(0, 0, 255, 0) !important;
+    height: 15vw;
+    margin-top: 2vw;
+    border: 1px solid rgba(0, 0, 255, 0.247);
+    padding: 2vw;
+    border-radius: 5px;
+    box-shadow: 5px 10px 20px #888888;
+}
+
+.forms{
+    margin: 0.5vw;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.2vw;
+}
+
+form input{
+    padding: 0.3vw;
+}
+
+#submit{
+    border-radius: 10px;
+    width: 20vw;
+    margin: 0.5vw auto;
+    border: 1px solid rgba(0, 0, 255, 0.247);
+}
+
+#submit:hover{
+    border-radius: 10px;
+    width: 20vw;
+    margin: 0.5vw auto;
+    border: 1px solid rgba(0, 0, 255, 0.247);
+    box-shadow: 1px 1px 5px #888888;
+    background-color: rgba(0, 0, 255, 0.171);
+}
+
+#say{
+    display: block;
+    text-align: center;
+    font-size: 1.5vw;
+    font-family: 'Comfortaa', cursive;
+    margin-top: 2vw;
+}
